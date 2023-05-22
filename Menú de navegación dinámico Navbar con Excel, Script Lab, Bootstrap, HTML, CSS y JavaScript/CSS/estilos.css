@@ -1,0 +1,16 @@
+ /* Oculta todas las secciones, excepto la primera */
+#contenido-sitio section {
+display: none;
+}
+
+#contenido-sitio section:first-of-type {
+display: block;
+}
+
+body {
+	background: #f2f2f2; 
+}
+
+.text-justify {
+  text-align: justify;
+}
